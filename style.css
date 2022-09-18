@@ -1,0 +1,605 @@
+@import url(reset.css);
+
+body{
+	background:#f5f5f5;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	font:12px arial;
+	color:#6b6f7b;
+}
+
+#header{
+	width:100%;
+	height:290px;
+}
+
+#header-container1{
+	width:960px;
+	margin:30px auto 0px;
+	padding:0;
+	position:relative;
+}
+
+
+header{
+	float:left;
+	position:relative;
+}
+
+h1 a{
+	 background:transparent url(img/logo.jpg);
+	 float:left;
+	 width:330px;
+	 height:100px;
+	 text-indent:-9999px;
+	 position:absolute;
+}
+
+.headerintro{
+	display:block;
+	background:#fff;
+	height:115px;
+	width:960px;
+	position:absolute;
+	margin:100px auto 0px;
+}
+
+.loginform{
+	float:left;
+	margin-top:30px;
+}
+
+
+.loginform p{
+	margin-left:20px;
+	font:14px arial;
+}
+
+.loginform a{
+	margin-left:20px;
+	font:14px arial;
+	font-style:italic;
+	color:#6b6f7b;	
+}
+
+.headerintro img{
+	float:right;
+	position:relative;
+	top:-130px;
+}
+
+.loginform li{
+	display:inline;
+	margin-left:20px;
+}
+
+nav {
+	width:960px;
+	height:35px;
+	background:#fff;
+	position:relative;
+	margin:0 auto;
+	top:230px;
+}
+
+nav ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+nav > ul{
+	position:relative;
+	display:block;
+	width:100%;
+	z-index:500;
+}
+
+nav > ul > li{
+	display:block;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+nav a{
+	margin-left:65px;
+	font:bold 13px arial;
+	text-decoration:none;
+	color:#6b6f7b;
+	line-height:35px;
+}
+
+
+#container{
+	width:960px;
+	margin:0 auto 10px;
+	overflow:hidden;
+}
+
+.tentang{
+	float:left;
+	margin-right: 20px;
+}
+
+.tentang article{
+	width: 300px;
+	height: 625px;
+	color: #fff;
+}
+
+.tentang article p{
+	font: 24px 'PT Sans', sans-serif;
+	text-align:right;
+	position: relative;
+	margin-right: 10px;
+}
+
+.tentang article h2{
+	font:50px 'PT Sans Narrow', sans-serif;
+	text-decoration:underline;
+	margin-left: 10px;
+}
+
+.tentang1{
+
+	background: transparent url(img/tentangkami1.jpg);
+}
+
+.tentang2{
+	background: transparent url(img/tentangkami2.jpg);
+
+}
+
+.tentang3{
+	background: transparent url(img/tentangkami3.jpg);
+}
+
+#row{
+	position: relative;
+	width: 960px;
+	display: block;
+}
+
+.barang{
+	float:left;
+	position:relative;
+	margin-right:7px;
+	margin-bottom:10px;
+	border:1px solid #ccccff;
+}
+
+.barang figcaption{
+	background:rgba(102, 0, 0, 0.6);
+	position:relative;
+	width:231px;
+	height:28px;
+	margin-top:-32px;
+	margin-left:-1px;
+	text-align:center;
+	color:#fff;
+	font:16px arial;
+}
+
+.gambar{
+	margin:10px 10px 10px 0;
+	text-align:center;
+	
+	background:#fff;
+}
+
+.gambar h2{
+	font:14px arial;
+	position: relative;
+	
+}
+
+.gambar h2 a{
+	text-decoration:none;
+	color:#6b6f7b;
+}
+
+.gambar figure{
+	position:relative;
+}
+
+.gambar img{
+	border:1px solid #ebebeb;	
+	width:140px;
+	height:128px;
+	margin:10px auto 10px ;
+}
+
+figcaption{
+	width:170px;
+	height:30px;
+	position:relative;
+}
+
+figcaption table{
+	margin-top: 5px;
+}
+
+.harga{
+	background:#9e0b0f;
+	font:14px arial;
+	color:#fff;
+	width:111px;
+	
+}
+
+.beli{
+	background:#6b6f7b;
+	font:14px arial;
+	width:110px;
+	
+}
+
+figcaption a{
+	text-decoration:none;
+	color:#fff;
+}
+
+#kiri{
+	float:left;
+}
+
+.akunmenu{
+	background: #fff;
+	width: 230px;
+	height: 240px;
+	border: 1px solid #acacac;
+
+}
+
+.akunmenu h1{
+	font: 14px arial;
+	font-weight: bold;
+	color:#790000;
+	margin: 15px 20px;
+	border-bottom: 1px solid #acacac;
+}
+
+.akunmenu ul li{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.akunmenu a{
+	text-decoration: none;
+	color: #555555;
+}
+
+.cari section{
+	width: 175px;
+	height: 75px;
+	background: #fff;
+	border: 1px solid #6b6f7b;
+	color: #000;
+	float: left;
+	
+}
+
+.cari h1{
+	margin:20px 15px;
+	font: 14px arial;
+}
+.cari article{
+	position: relative;
+	color: #fff;
+	font:12px arial;
+	float: right;
+}
+
+.cari article p{
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+
+
+.infopanel{
+	background: #fff;
+	border: 1px solid #acacac;
+	float:right;
+	width: 350px;
+	height: 155px;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+
+.infopanel h1{
+	border-bottom: 1px solid #000;
+	margin: 10px 10px;
+	text-align: right;
+}
+
+.infopanel ul{
+	margin-left: 10px;
+}
+
+.kategori{
+	width:232px;
+	height:410px;
+	background:#6b6f7b;
+}
+
+.bag{
+	width:232px;
+	height:410px;
+	background:transparent url(img/bag.jpg);;
+}
+
+.kategori ul{
+	margin:5px 10px;
+}
+
+.kategori a{
+	font:18px arial;
+	color:#fff;
+	text-decoration:none;
+	line-height:27px;
+}
+
+.badge{
+	width:230px;
+	background:#fff;
+	height:75px;
+	overflow:hidden;
+	border:1px solid #ccccff;
+}
+
+.badge h2{
+	float:left;
+	font:14px arial;
+	color:#ff0000;
+	margin:20px 10px;
+}
+
+.badge h3{
+	font:bold 22px arial; 
+	display:block;
+	color:#cc0000;
+	position:relative;
+	top:15px;
+	left:-65px;
+}
+
+.badge img{
+	position:relative;
+	float:right;
+	top:-40px;
+}
+
+
+
+#slideshow{
+	margin-top:15px;
+	height:199px;
+	width:232px;
+	background:#6b6f7b;
+	color: #fff;
+}
+
+#kanan {
+	position:relative;
+	
+}
+
+.daftar table{
+	position:relative;
+	font:14px arial;
+	margin:0 auto;
+}
+
+.label{
+	line-height:32px;
+}
+
+.isian{
+	margin-left:10px;
+	line-height:32px;
+}
+
+hr{
+	border-width:1;
+}
+
+#search input{
+	margin-right:20px;
+}
+
+li.tombol{
+	margin-top:30px;
+}
+
+.cari{
+	background:#6b6f7b;
+	font:14px arial;
+	color:#fff;
+	float: right;
+	width: 710px;
+}
+
+.cari p{
+	float:left;
+	margin:10px;
+}
+
+.cari form{
+	position:relative;
+	float:right;
+	margin:10px;
+}
+
+.cari ul li{
+	display:inline;
+	margin-left:30px;
+}
+
+.banner{
+	margin-top:10px;
+}
+
+.featured{
+	
+	width:710px;
+	position:relative;
+}
+
+#grid{
+	position:relative;
+	float: right;
+	width: 710px;
+}
+
+#paging{
+	float: right;
+	margin: 20px 230px;
+}
+
+.produk{
+	width:231px;
+	height:155px;
+	float:left;
+	position:relative;
+	margin-top:10px;
+	margin-right:5px;
+	margin-bottom:6px;
+}
+
+.produk figcaption{
+	position:relative;
+	margin-top:-20px;
+}
+
+.announce{
+	margin-top:10px;
+	overflow:hidden;
+	display:block;
+	position:relative;
+}
+
+.belanja{
+	font:14px arial;
+	margin:0 auto 20px;
+}
+
+.belanja h4{
+	font:20px arial;
+	color:#cc0000;
+}
+
+
+#form-input table{
+	width:960px;
+	font:14px arial;
+	border:1px solid;
+}
+
+#form-input td{
+	padding:10px;
+}
+
+#form-input li{
+	margin-bottom:5px;
+	
+}
+
+#tabeldata{
+	margin:10px auto 0;
+	color:#000;
+}
+
+iframe{
+		width:960px;
+}
+
+#tabeldata table{
+	width:960px;
+	font:14px arial;
+}
+
+#tabeldata table tr td{
+	border:1px solid;
+}
+
+footer{
+	margin:0 auto 30px;
+	width:100%;
+	height:198px;
+	overflow:hidden;
+	line-height:24px;
+}
+
+#footnav1{
+	background:#9e0b0f;
+	margin:10px auto 0;
+	width:960px;
+	height:171px;
+	font:14px arial;
+	color:#fff;
+}
+
+#footnav1 h4{
+	font:18px arial;	
+}
+
+#footnav1 a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.footmenu{
+	margin-top:15px;
+	margin-left:10px;
+	margin-right:80px;
+	margin-bottom:20px;
+	float:left;
+	line-height:24px;
+}
+
+.footkontak{
+	float:right;
+	text-align:right;
+	margin-top:15px;
+	margin-right:10px;
+}
+
+#footnav2{
+	background:#660000;
+	position:relative;
+	margin:-10px auto 0;
+	width:960px;
+	height:27px;
+	color:#fff;
+}
+
+
+.footkiri{
+	float:left;	
+	position:absolute;
+	margin-left:10px;
+}
+
+.footkiri a{
+	color:#ffff00;
+}
+
+.footkanan{
+	float:right;
+	position:relative;
+	margin-right:10px;
+}
+
+.footkanan li{
+	display:inline;
+	margin-left:5px;
+}
+
+.footkanan a{
+	text-decoration:none;
+	color:#fff;
+}
